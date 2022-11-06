@@ -6,7 +6,7 @@ body{
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
     background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
-    background-position: -60% 120%,150% -90%;
+    background-position: -60% 111%,147% -88%;
     background-repeat: no-repeat,no-repeat;
     display: grid;
     place-items: center;
