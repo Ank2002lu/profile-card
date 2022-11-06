@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    background-position: -60% 120%,150% -90%;
+    background-repeat: no-repeat,no-repeat;
+    display: grid;
+    place-items: center;
+    margin-top: 12rem;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+/* font session */
+.countofitem{
+    color: hsl(229, 23%, 23%);
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.item{
+    color: hsl(227, 10%, 46%);
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.item26{
+    color: hsl(227, 10%, 46%);
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* main div */
+
+.middle-container{
+    position: relative;
+    border-radius: 10px ;
+    text-align: center;
+}
+
+.pattern-card-img{
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.victor-img{
+    border-radius: 80%;
+    position:absolute;
+    bottom: 165px;
+    left: 120px;
+    z-index: 1;
+    margin: 0;
+    border: 3px solid white;
+    
+}
+
+
+.profile{
+    position: relative;
+    background-color: aliceblue;
+    padding-top: 50px;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 350px;
+    max-width: 350px;
+
+}
+
+.bio{
+    padding: 20px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding: 20px 10px 20px 20px;
+}
+
+#left{
+    float:left;
+    width:100x;
+    padding-left: 1.5rem;
+
+}
+#right{
+    float:right;
+    width:100px;
+    padding-left:1rem;
+}
+#center{    
+    float:left;
+    width:100px;
+    padding-left: 1.5rem ;
+}
+
+/* footer session */
+.attribution { font-size: 11px; text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 10px 0px 10px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* responsive for mobile */
+@media only screen and (max-width: 500px) {
+
+    body{
+        background-position: -730px -500px, 200px 350px ;
+    }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width:900px) {
+    body{
+        background-position: -610px -498px,305px 397px;
+    }
+
+}
